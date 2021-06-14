@@ -1,0 +1,678 @@
+
+.text-head{
+	background-attachment: fixed;
+	background:rgb(21, 236, 35) no-repeat fixed 100% ;
+	position:fixed;
+	width:100%;
+	margin-top:0px;
+	padding:20px;
+	color:yellow;
+	font-size:50px;
+	text-align: center;
+	font-weight: bold;
+	font-family:Cooper Black;
+	position:absolute;
+	top:631px;
+
+}
+.txt{
+	background: fixed no-repeat 100%;
+	background-position: 50% 50%;
+	opacity: .6;
+	color:white;
+	letter-spacing: 5px;
+	padding-top: 225px;
+	animation:appear 1s ease-in 1 forwards;
+	-moz-animation:appear 1s ease-in 1 forwards;
+	text-shadow:3px -1px 13px white;
+}
+.travel-agency{
+	width:100%;
+	text-align: center;
+	background:url("imgbandbback3.jpg") repeat fixed 50%;
+	height:631px;
+	z-index: 100;
+	top:0;
+	color:#69fffe;
+
+	float:center;
+	font-size: 120px;
+	scroll-behavior: smooth;
+}
+body{
+	transform: translateZ(0px);
+}
+.back-text{
+	opacity:.4;
+	color:white;
+	font-size:75px;
+	position:absolute;
+	z-index:9;
+	font-family:cooper Black;
+}
+.imageback{
+	width:100%;
+	margin-top:97px;
+	height:530px;
+	position:absolute;
+	margin-right:0;
+	right:0;
+
+	background-size: 100%;
+	margin-left:0;
+}
+.image1{
+	width:100%;
+	position: absolute;
+	animation: aniimg1 32s  alternate running forwards infinite;
+	animation-delay: 2s;
+	z-index: 8;
+	height:522px;
+	margin-right:0;
+	margin-left:0px;
+	-moz-animation: aniimg1 32s  alternate running forwards infinite;
+	-moz-animation-delay:2s;
+}
+.image2{
+	width:100%;
+	position:absolute;
+		-moz-animation: aniimg1 32s  alternate running forwards infinite;
+	-moz-animation-delay:6s;
+	animation:aniimg1 32s running infinite forwards;
+	animation-delay:6s;
+	height:520px;
+	z-index:7;
+		
+}
+.image3{
+	width:100%;
+	position:absolute;
+	z-index: 6;
+	animation: aniimg1 32s infinite running forwards;
+	animation-delay: 10s;
+	
+	height:520px;
+		-moz-animation: aniimg1 32s  alternate running forwards infinite;
+		-moz-animation-delay:10s;
+}
+.image4{
+	width:100%;
+	position:absolute;
+	z-index: 5;
+		-moz-animation: aniimg1 32s  alternate running forwards infinite;
+	-moz-animation-delay:14s;
+	animation: aniimg1 32s infinite running forwards;
+	animation-delay: 14s;
+	
+	height:520px;
+}
+.image5{
+	width:100%;
+	position:absolute;
+		-moz-animation: aniimg1 32s  alternate running forwards infinite;
+	-moz-animation-delay:18s;
+	z-index: 4;
+	animation: aniimg1 32s infinite running forwards;
+	animation-delay: 18s;
+	
+	height:520px;
+}
+.image6{
+	width:100%;
+	position:absolute;
+	z-index: 3;
+		-moz-animation: aniimg1 32s  alternate running forwards infinite;
+		-moz-animation-delay:22s;
+	animation: aniimg1 32s infinite running forwards;
+	animation-delay: 22s;
+	
+	height:520px;
+}
+.image7{
+	width:100%;
+	position:absolute;
+	z-index: 2;	
+	-moz-animation: aniimg1 32s  alternate running forwards infinite;
+	-moz-animation-delay:26s;
+	animation: aniimg1 32s infinite running forwards;
+	animation-delay: 26s;
+	
+
+	height:520px;
+}
+.image8{
+	width:100%;
+	position:absolute;
+	-moz-animation: aniimg1 32s  alternate running forwards infinite;
+	-moz-animation-delay:30s;
+	z-index: 1;
+	animation: aniimg1 32s infinite running forwards;
+	animation-delay: 30s;
+	
+	height:520px;
+	
+}
+.flicker{
+	opacity:.7;
+	text-shadow:.7;
+}
+.flicker_1{
+	animation: flicker 10s infinite linear none alternate;
+	-moz-animation: flicker 10s infinite linear none alternate;
+}
+.flicker_2{
+	animation: flicker 21s infinite linear none alternate;
+	-moz-animation: flicker 21s infinite linear none alternate;
+}
+.flicker_3{
+	animation: flicker 9s infinite linear none alternate;
+	-moz-animation: flicker 9s infinite linear none alternate;
+}
+.flicker_4{
+	opacity:.4;
+	text-shadow: none;
+}
+.flicker_5{
+	opacity:.5;
+	text-shadow: none;
+}
+.flicker_6{
+	animation: flicker 17s infinite linear none alternate;
+	-moz-animation: flicker 17s infinite linear none alternate;
+}
+.flicker_7{
+	animation: flicker 13s infinite linear none alternate;
+	-moz-animation: flicker 13s infinite linear none alternate;
+}
+.flicker_8{
+	opacity:.5;
+	text-shadow: none;
+	transform: rotate(-20deg);
+	transform-origin: center;
+	text-transform: rotateX(-20deg);
+}
+.mainc{
+	position:absolute;
+	height:360px;
+	width:100%;
+	top:1318px;
+	padding-top: 40px;
+	background:url("imgbacknav3.jpg") no-repeat fixed 100%;
+	background-size: 100%;
+	padding-left: 200px;
+	font-family: comic sans MS;
+}
+.bc1{
+  background-color: lightblue;
+  height:200px;
+  width:200px;
+  border-radius:100%;
+  display: flex;
+  position:absolute;
+  z-index: 1;
+  margin-left: 250px;
+  margin-top: 40px;
+  align-items: center;
+  justify-content:center;
+}
+.bc2{
+  background-color: lightgreen;
+  height:165px;
+  width:165px;
+  border-radius:100%;
+  display: flex;
+  position:absolute;
+ margin-top: 131px;
+ margin-left:460px;
+ z-index: 4;
+ text-align: center;
+ align-items: center;
+  justify-content:center;
+}
+.sc1{
+   background-color: yellow;
+  height:120px;
+  width:120px;
+  border-radius:100%;
+  display: flex;
+  position:absolute;
+ margin-top: 45px;
+ margin-left:416px;
+z-index: 3;
+align-items: center;
+  justify-content:center;
+  text-align: center;
+}
+.sc2{
+   background-color: red;
+  height:140px;
+  width:140px;
+  border-radius:100%;
+  display: flex;
+  position:absolute;
+ margin-top: 71px;
+ margin-left:568px;
+ z-index: 5;
+align-items: center;
+  justify-content:center;
+ }
+
+
+
+.sc1:hover, .sc2:hover{
+   animation: big 1.5s ease-out 1 alternate both
+}
+
+.bc1:hover, .bc2:hover{
+   animation: small 1.5s ease-out 1 alternate forwards;
+}
+h1{
+	justify-content: center;
+	font-family: comic sans MS;
+	color:#fffa28;
+	padding-bottom: 0;
+	background-color: #4b89ef;
+	border-radius: 4px;
+	width:100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-shadow: 2px 3px 4px grey;
+	font-size: 50px;
+	position: absolute;
+	margin-top: 0;
+
+}
+.theplan{
+	margin-top: 1085px;
+	justify-content: center;
+	text-align: center;
+	background:url("imgbackite.jpg") no-repeat fixed 100%;
+	width:100%;
+	height:450px;
+	background-size: 100%;
+	font-size: 30px;
+	padding-top: 0px;
+	position:absolute;
+}
+p{
+	margin-top: 70px;
+}
+.itenary{
+	position:absolute;
+	margin-top: 1535px;	
+	height: 300px;
+	width:100%;
+	color:#fffa28;
+}
+
+.ite-head{
+	position:absolute;
+	background-color:#4b89ef;
+	height:50px;
+	text-shadow: 1px 2px 4px;
+	font-family: comic sans MS;
+	width:100%;
+	padding:20px;
+	font-size:50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width:100%;
+}
+
+.ite-head:hover, h1:hover{
+	animation: open 1s forwards 1 alternate;
+}
+h2{
+	margin-top:0;
+	position: absolute;
+	color: red;
+	text-align: center;
+	font-size: 40px;
+	background:silver;
+	width:100%;
+}
+
+.txt4{
+	margin-top: 80px;
+	position:absolute;
+	color:purple;
+	font-size: 30px;
+	margin-left: 30px;
+	width:100%;
+}
+.txt5{
+	margin-top: 80px;
+	position:absolute;
+	color:white;
+	font-size: 30px;
+	margin-left: 30px;
+	width:100%;	
+}
+.txt6{
+	margin-top: 80px;
+	position:absolute;
+	color:#f33d14;
+	font-size: 30px;
+	margin-left: 30px;	
+	width:100%;
+}
+.txt8{
+	margin-top: 80px;
+	position:absolute;
+	color:red;
+	font-size: 30px;
+	margin-left: 30px;	
+width:100%;
+}
+.txt9{
+	margin-top: 80px;
+	position:absolute;
+	color:#7c0904;
+	font-size: 30px;
+	margin-left: 30px;	
+	width:100%;
+}
+.txt10{
+	margin-top: 80px;
+	position:absolute;
+	color:black;
+	font-size: 30px;
+	margin-left: 30px;	
+width:100%;
+}
+.day1{
+	justify-content: center;
+	text-align: center;
+	width:100%;
+	height:350px;
+	justify-content: center;
+	position: absolute;
+	margin-top:90px;
+	align-content: center;
+	background:url("imgpandyback.jpg") no-repeat fixed 100%;
+	margin-left:0;
+	background-size: 100%;
+}
+.day2{
+	justify-content: center;
+	text-align: center;
+	width:100%;
+	height:350px;
+	justify-content: center;
+	position: absolute;
+	margin-top:422px;
+	align-content: center;
+	background:url("imgrandyback.jpg") no-repeat fixed 100%;
+	margin-left:0;
+	background-size: 100%;
+
+}
+.day3{
+	justify-content: center;
+	text-align: center;
+	width:100%;
+	height:350px;
+	justify-content: center;
+	position: absolute;
+	margin-top:754px;
+	align-content: center;
+	background:url("imggandbback.jpg") no-repeat fixed 100%;
+	margin-left:0;
+	background-size: 100%;
+}
+.day4{
+	justify-content: center;
+	text-align: center;
+	width:100%;
+	height:350px;
+	justify-content: center;
+	position: absolute;
+	margin-top:1086px;
+	align-content: center;
+	background:url("imgpandbback.jpg") no-repeat fixed 100%;
+	margin-left:0;
+	background-size: 100%;
+}
+.day5{
+	justify-content: center;
+	text-align: center;
+	width:100%;
+	height:350px;
+	justify-content: center;
+	position: absolute;
+	margin-top:1418px;
+	align-content: center;
+	background:url("imggandyback.jpg") no-repeat fixed 100%;
+	margin-left:0;
+	background-size: 100%;
+}
+.day6{
+	justify-content: center;
+	text-align: center;
+	width:100%;
+	height:350px;
+	justify-content: center;
+	position: absolute;
+	margin-top:1750px;
+	align-content: center;
+	background:url("imgc2back.jpg") no-repeat fixed 100%;
+	margin-left:0;
+	background-size: 100%;
+}
+.day7{
+	justify-content: center;
+	text-align: center;
+	width:100%;
+	height:350px;
+	justify-content: center;
+	position: absolute;
+	margin-top:2082px;
+	align-content: center;
+	background:url("imgcback.jpg") no-repeat fixed 100%;
+	margin-left:0;
+	background-size: 100%;
+}
+.day8{
+	justify-content: center;
+	text-align: center;
+	width:100%;
+	height:350px;
+	justify-content: center;
+	position: absolute;
+	margin-top:2414px;
+	align-content: center;
+	background:url("imggandbbackg.jpg") no-repeat fixed 100%;
+	margin-left:0;
+	background-size: 100%;
+}
+.ma{
+	background-color: lightyellow;
+	position: absolute;
+	width: 100%;
+	margin-top:4407px;
+}
+.ma-head{
+	width:100%;
+	margin-top:0;
+	color: yellow;
+	background-color: #4b89ef;
+	text-align: center;
+	justify-content: center;
+	padding: 20px;
+	display: flex;
+
+	font-size: 50px;
+	font-family: comic sans MS;
+}
+.ma-head:hover{
+	animation: open2 1s forwards 1 alternate; 
+}
+.a1{
+	margin-top:90px;
+    margin-left: 100px;
+    background:url(back1.jpg) no-repeat fixed 100%;
+    background-size: 100%;
+	
+}
+#a{
+	position: absolute;
+	font-size: 37px;
+	border-top:4px solid brown;
+    border-bottom:4px solid brown;
+    border-right:4px solid brown;
+	border-left:4px solid brown;
+	height:200px;
+	border-radius:10px;
+}
+.a2{
+	margin-top:380px;
+	margin-right:100px;
+	background:url(back2.jpg) no-repeat fixed 100%;
+    background-size: 100%;
+}
+.a3{
+	margin-top:670px;
+	margin-left:100px;
+    background:url(back3.jpg) no-repeat fixed 100%;
+    background-size: 100%;
+}
+.a4{
+	margin-top:960px;
+	margin-right:100px;
+    background:url(back4.jpg) no-repeat fixed 100%;
+    background-size: 100%;	
+}
+.a5{
+	margin-top:1250px;
+	margin-left:100px;	
+    background:url(back5.jpg) no-repeat fixed 100%;
+    background-size: 100%;
+}
+
+.ima1{
+	transform: rotate(-20deg);
+	position:absolute;
+	
+	border-radius: 10px;
+}
+.ima2{
+	transform:rotate(20deg);
+	position:absolute;
+	margin-left:1050px;
+	border-radius: 10px;
+
+}
+
+.ima1:hover, .ima2:hover{
+	animation: hi 1s forwards alternate;
+}
+.txt11{
+	text-align: center;
+	
+	margin-left:250px;
+	margin-right:20px;
+}
+.txt12{
+	text-align: center;
+	margin-left: 20px;
+	margin-right:250px;
+}
+.txt13{
+	text-align: center;
+	margin-left: 250px;
+	margin-right:20px;
+}
+.txt14{
+	text-align:center;
+	margin-left: 20px;
+	margin-right:220px;	
+}
+.txt15{
+	text-align:center;
+	margin-right: 20px;
+	margin-left:250px;	
+}
+/*animations from here*/
+@keyframes open2{
+	100%{
+		background-color: #17f32a;
+		border-radius: 100%;
+		height:50px;
+		width:500px;
+		margin-left: 450px;
+		padding:10px;
+	}
+}
+@keyframes open{
+	100%{
+		background-color: #17f32a;
+		border-radius: 100%;
+		height:50px;
+		width:300px;
+		margin-left: 500px;
+		padding:10px;
+	}
+}
+@keyframes hi{
+	100%{
+		transform:rotate(0deg);
+	}
+}
+@keyframes aniimg1{
+	12.5%,87.5%{
+		opacity:0;
+	}
+}
+@keyframes appear{
+	0%{
+		opacity:0;
+	}
+	100%{
+		opacity: .9;
+		transform: translateY(-15px);
+	}
+}
+@keyframes flicker{
+  0%, 9.999%, 16%, 25.999%, 29%, 37.999%, 48%, 49.999%, 58%, 59.999%, 65%, 77.999%, 80%, 90.999%, 92%, 98.999%{
+  	opacity:.9;
+  	text-shadow: 3px -1px 13px white;
+  }
+  10%, 15.999%, 26%, 28.999%,38%,47.999%,50%, 57.999%, 60%, 64.999%, 78%, 79.999%, 91%, 91.999%, 99%, 100%{
+  	opacity: .4;
+  	text-shadow:none;
+  }  
+}
+@keyframes big{
+  100%{
+    transform: scale(1.5);
+    opacity:.6;
+    z-index:100;
+  }
+}
+@keyframes small{
+  100%{
+    transform: scale(.7);
+    opacity:.6;
+    z-index:100;
+  }
+}
+@keyframes appear2{
+	100%{
+		opacity: 1;
+	}
+}
+.txt2{
+	font-size: 20px;
+	color:white;
+	z-index: 1000;
+	animation:appear2 1s 1 forwards;
+	animation-delay: 1s;
+}
+body{
+	margin:0px;
+
+}
+html{
+	position:relative;
+}
